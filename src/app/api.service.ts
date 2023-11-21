@@ -7,9 +7,10 @@ import { Injectable } from '@angular/core';
 export class ApiService {
 
   constructor(private http:HttpClient) { }
-
+a='https://jsonplaceholder.typicode.com/todos/'
+b=this.a;
   getTodo() {
-    return this.http.get( 'https://jsonplaceholder.typicode.com/todos/')
+    return this.http.get(this.b )
 
   }
 }

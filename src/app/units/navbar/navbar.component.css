@@ -1,0 +1,8 @@
+img{
+    border-radius: 25px;
+    align-items: flex-start;
+}
+.container-fluid{
+    align-content: flex-start;
+
+}
